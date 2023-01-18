@@ -6,6 +6,11 @@ permalink: /index.html
 
 # Shopping Cart
 
+I built this following a tutorial (see _Source_, below). My only contribution was to strip out the node modules bundling code, replacing it
+with `async await` to fetch `items.json`.
+
+## Features
+
 - Cart persists over multiple pages (using session storage)
 - Running total given.
 - Items can be removed from the cart.
@@ -13,12 +18,12 @@ permalink: /index.html
 
 ## Javascript
 
-- ES6 Modules
-- `async await` used to bring in `items.json`
+- ES6 Modules,
+- Not transpiled.
 
 ## CSS
 
-- _tailwind.css_ used throughout.
+- _tailwind.css_ used throughout (the HTML was already supplied).
 - I used inline styles for a few customisations.
 
 ## Testing
