@@ -109,7 +109,8 @@ async function renderCartItems() {
         // quantity
         if (entry.quantity > 1) {
           const quantity = cartItem.querySelector("[data-quantity]")
-          quantity.textContent = `x${entry.quantity}`
+
+          quantity.textContent = `\xD7${entry.quantity}` // \xD7 = multiplication symbol
         }
 
         // price (.priceCents)
